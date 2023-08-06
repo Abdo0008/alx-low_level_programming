@@ -23,4 +23,4 @@ int print_last_digit(int n)
 		_putchar(nbr + 48);
 		return (nbr);
 	}
-}
+
