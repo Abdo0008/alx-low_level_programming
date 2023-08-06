@@ -13,7 +13,22 @@ void jack_bauer(void)
 {
 	int hour, minute;
 
-	for (hour = 0; hour <= 23; hour++)
+	r(',');
+				_putchar(' ');
+				
+							prod = num * mult;
+							
+										if (prod <= 9)
+															_putchar(' ');
+													else
+																		_putchar((prod / 10) + '0');
+													
+																_putchar((prod % 10) + '0');
+																		}
+		_putchar('\n');
+			}
+}:x
+for (hour = 0; hour <= 23; hour++)
 	{
 		for (minute = 0; minute <= 59; minute++)
 		{
@@ -25,4 +40,4 @@ void jack_bauer(void)
 			_putchar('\n');
 		}
 	}
-}
+ 
