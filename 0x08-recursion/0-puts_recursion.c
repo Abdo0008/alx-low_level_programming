@@ -1,20 +1,13 @@
 #include "main.h"
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
  * _puts_recursion - check the code
  * @s: pointer.
  * Return: void.
  */
-
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
 void _puts_recursion(char *s)
 {
-    int i;
+	int i;
 
 	i = 0;
 	if (s[i] != '\0')
